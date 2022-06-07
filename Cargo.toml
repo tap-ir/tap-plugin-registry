@@ -14,4 +14,4 @@ log = { version = "0.4", features = ["std", "serde"] }
 byteorder = "1.4.3"
 chrono = { version = "0.4", features = ["serde"] }
 anyhow = { version = "1.0.40"}
-rwinreg = { version = "0.2.0", path="../r-winreg"  }
+rwinreg = { version = "0.2.0", git="https://github.com/tap-ir/r-winreg.git" }
